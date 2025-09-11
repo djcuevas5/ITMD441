@@ -1,7 +1,7 @@
 # ITMD441_-Lab1
 
 ## Lab 1
-### Overview
+ ### Overview
 In this assignment, you will design and build a personal resume webpage using only HTML and
 CSS (no JavaScript). You will then host your page using GitHub Pages so it is publicly accessible.
 Both ITMD 441 students and ITMD 541 students will complete a resume site, but ITMD 541
