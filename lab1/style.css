@@ -6,38 +6,55 @@ body {
     font-size: 12pt;
     line-height: 1.5;
 }
-.container {
-   width: 90%;
-   margin: 0 auto;
+
+header .container {
+    display: flex;
+    align-items: center; 
+    gap: 20px; 
+    max-width: 900px;
+    margin: auto;
+    padding: 20px;
+}
+
+.profile-pic {
+    border-radius: 50%; 
+    border: 3px solid #007acc;
+}
+
+header .text h1 {
+    margin: 0;
+    font-size: 20pt;
+    letter-spacing: 2pt;
+    margin-bottom: 5px;
+}
+
+header .text h2 {
+    margin: 0;
+    font-size: 14pt;
+    font-style: italic;
+}
+
+header nav {
+    margin-top: 10px;
+}
+
+header nav a {
+    text-decoration: none;
+    color: rgb(29, 32, 206); 
+    margin-right: 15px;
+    font-weight: bold;
+}
+
+header nav a:hover {
+    text-decoration: underline;
 }
 
 header {
     font-family: 'Times New Roman', Times, serif;
-    padding-bottom :10px
+    padding-bottom: 10px;
 }
 
-header h1{
-    font-size: 20pt;
-    letter-spacing: 2pt;
-    border-bottom: 1px solid black;
-    margin-bottom: 5px;
-}
 
-header h2{
-    font-size: 14pt;
-    margin-top: 0px;
-    font-style: italic;
-}
-
-header nav a{
-    text-decoration: none;
-    color: rgb(248, 248, 248);
-    margin-right: 80%;
-}
-
-header nav a:hover{
-    text-decoration: underline;
-}
 section{
     background: rgb(248, 248, 248);;
     margin: 20px auto;
