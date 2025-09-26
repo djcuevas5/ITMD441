@@ -1,2 +1,2 @@
-# ITMD441_Lab1
+# ITMD441 Labs
 
