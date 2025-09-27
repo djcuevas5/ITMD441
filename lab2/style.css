@@ -82,11 +82,22 @@
 
 /* Grid Part 1 */
 
-#grid-section1 .grid {
+/* Grid Part 1 - Auto-placed Grid (6 boxes) */
+#grid-section1 .grid-container {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-auto-rows: 100px;
     gap: 20px;
+}
+
+#grid-section1 .grid-container > div {
+    background-color: #ccc;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 4px solid #555;
+    border-radius: 8px;
+    padding: 10px;
 }
 
 /* end Grid Part 1 */
