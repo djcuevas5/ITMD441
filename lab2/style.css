@@ -7,7 +7,7 @@
     list-style: none;               
     padding: 0;                     
     margin: 0;                      
-    align-items: center;            /* Vertically center the buttons */
+    align-items: center;           
 }
 
 #flex-section1 li a.btn {
@@ -24,47 +24,33 @@
 
 /* Flexbox Part 2 */
 
+/* Flexbox Part 2 - Three Equal Columns with Reordering */
 #flex-section2 ul {
     display: flex;
-    justify-content: space-between; /* space evenly across */
     padding: 0;
-    margin: 0;
+    margin: 20px 0;
     list-style: none;
+    gap: 10px;
 }
-
 
 #flex-section2 li {
-  flex: 1;
-  background-color: #ccc;
-  color: #000;
-  padding: 10px;
-  border-radius: 8px;
-  border: 2px solid #555;
-  margin: 5px;
+    flex: 1;
+    padding: 15px;
+    background-color: #e0e0e0;
+    border-radius: 4px;
 }
 
-#flex-section2 .item1 {
-	order:1;
+/* Correct ordering based on the image description */
+#flex-section2 .item1 { 
+    order: 1; /* First column */
 }
 
-#flex-section2 .item2 {
-	order: 2;
+#flex-section2 .item2 { 
+    order: 3; /* Third column */
 }
 
-#flex-section2 .item3 {
-	order: 3;
-}
-
-#flex-section2 .item4 {
-	order: 4;
-}
-
-#flex-section2 .item5 {
-	order: 5;
-}
-
-#flex-section2 .item6 {
-	order: 6;
+#flex-section2 .item3 { 
+    order: 2; /* Middle column */
 }
 /* end Flexbox Part 2 */
 
@@ -90,6 +76,7 @@
 #flex-section3 .tags li {
 	margin: 5px;
 }
+
 /* end Flexbox Part 3 */
 
 
