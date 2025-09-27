@@ -10,28 +10,29 @@
     <header>
         <h2>Divine Jayne M. Cuevas</h2> 
     </header>
+    
     <main>
         <section id="flex-section1">
             <ul>
-                <button>Register/Login</button>
-                <button>Home</button>
-                <button>Watch Videos</button>
-                <button>Contanct Support</button>
+                <li>Register/Login</li>
+                <li>Home</li>
+                <li>Watch Videos</li>
+                <li>Contanct Support</li>
             </ul>
         </section>
 
         <section id="flex-section2">
             <ul>
-                <li>This is list item 1 and should be the first column</li>
-                <li>This is list item 2 in the HTMK but I want it displayed as column 3 in the browser when rendered.</li>
-                <li>There is more content in this item than either of the others. This is list item 3 in the HTML but I want it to display as the middle column in the browser.</li>
+                <li class="item1">This is list item 1 and should be the first column</li>
+                <li class="item2">This is list item 2 in the HTMK but I want it displayed as column 3 in the browser when rendered.</li>
+                <li class="item3">There is more content in this item than either of the others. This is list item 3 in the HTML but I want it to display as the middle column in the browser.</li>
             </ul>
         </section>
 
         <section id="flex-section3">
-            <div class="flex-container">
-                <img src="" alt="clouds">
-                <div class="clouds-list">
+            <div class="box">
+                <img src="assets/clouds.jpg" alt="clouds">
+                <div class="tags">
                 <ul>
                     <li>Clouds</li>
                     <li>Blue</li>
@@ -44,7 +45,7 @@
     </section>
 
         <section id="grid-section1">
-            <div class="gridauto">
+            <div class="grid">
                 <div>Box One</div>
                 <div>Box Two</div>
                 <div>Box Three</div>
@@ -53,14 +54,25 @@
                 <div>Box Six</div>
             </div>
         </section>
+        
         <section id="grid-serction2">
-            <div class="blue"></div>
+            <div class="gridboxblue">Blue Box</div>
+            <div class="gridboxred">Red Box</div>
         </section>
 
-        <section>  
+        <section id="grid-section3">
+            <div class="grid">
+                <div class="box1">Box One</div>
+                <div class="box2">Box Two</div>
+                <div class="box3">Box Three</div>
+                <div class="box4">Box Four</div>
+        </section>
 
-        </section> 
-
+        <sectiion id="transition-section">
+            <div class="box">
+                <a href="#"> Hover Over Me this is it</a>
+            </div>
+        </sectiion>
     </main>
 </body>
 </html>
