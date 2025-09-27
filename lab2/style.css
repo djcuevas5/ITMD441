@@ -2,11 +2,11 @@
 
 
 #flex-section1 ul {
-    display: flex;                  /* Enable flex layout */
-    justify-content: space-around;  /* Equal space at start, between, and end */
-    list-style: none;               /* Remove default bullets */
-    padding: 0;                     /* Remove default padding */
-    margin: 0;                      /* Remove default margin */
+    display: flex;                 
+    justify-content: space-around;  
+    list-style: none;               
+    padding: 0;                     
+    margin: 0;                      
     align-items: center;            /* Vertically center the buttons */
 }
 

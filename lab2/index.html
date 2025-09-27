@@ -3,26 +3,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title> ITMD 441-Lab 2</title>
+    <title>ITMD 441 - Lab 2</title>
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="assets/global.css">
-    
 </head>
 <body>
     <header>
+        <h1>ITMD 441 - Lab 2</h1>
         <h2>Divine Jayne M. Cuevas</h2> 
     </header>
     
     <main>
+        <!-- Flexbox Part 1 - Fixed navigation items to match lab requirements -->
         <section id="flex-section1">
-            <ul>
-                <li><a href="#" class="btn">Register/Login</a></li>
-                <li><a href="#" class="btn">Home</a></li>
-                <li><a href="#" class="btn">Watch Videos</a></li>
-                <li><a href="#" class="btn">Contact Support</a></li>
-            </ul>
+            <nav>
+                <a href="#" class="btn">Register/Login</a>
+                <a href="#" class="btn">About</a>
+                <a href="#" class="btn">Watch Videos</a>
+                <a href="#" class="btn">Contact Support</a>
+            </nav>
         </section>
 
+        <!-- Flexbox Part 2 - Correct -->
         <section id="flex-section2">
             <ul>
                 <li class="item1">This is list item 1 and should be the first column</li>
@@ -31,23 +33,23 @@
             </ul>
         </section>
 
+        <!-- Flexbox Part 3 - Added heading -->
         <section id="flex-section3">
-            <div class="box">
+            <div class="card">
                 <img src="assets/clouds.jpg" alt="clouds">
+                <h3>Clouds</h3>
                 <div class="tags">
-                    <ul>
-                        <li>Clouds</li>
-                        <li>Blue</li>
-                        <li>White</li>
-                        <li>Sky</li>
-                        <li>Card</li>
-                    </ul>
+                    <span class="tag">Blue</span>
+                    <span class="tag">White</span>
+                    <span class="tag">Sky</span>
+                    <span class="tag">Card</span>
                 </div>
             </div>
         </section>
 
+        <!-- Grid Part 1 - Correct -->
         <section id="grid-section1">
-            <div class="grid">
+            <div class="grid-container">
                 <div>Box One</div>
                 <div>Box Two</div>
                 <div>Box Three</div>
@@ -57,26 +59,27 @@
             </div>
         </section>
         
+        <!-- Grid Part 2 - Added container -->
         <section id="grid-section2">
-            <div class="gridboxblue">Blue Box</div>
-            <div class="gridboxred">Red Box</div>
+            <div class="grid-container">
+                <div class="gridboxblue">Blue Box</div>
+                <div class="gridboxred">Red Box</div>
+            </div>
         </section>
 
+        <!-- Grid Part 3 - Fixed to only 4 boxes as required -->
         <section id="grid-section3">
-            <div class="grid">
+            <div class="grid-container">
                 <div class="box1">Box One</div>
                 <div class="box2">Box Two</div>
                 <div class="box3">Box Three</div>
                 <div class="box4">Box Four</div>
-                <div class="box5">Box Five</div>
-                <div class="box6">Box Six</div>
             </div>
         </section>
 
+        <!-- Transition Part - Correct -->
         <section id="transition-section">
-            <div class="box">
-                <a href="#"> Hover Over Me this is it</a>
-            </div>
+            <a href="#" class="transition-btn">Hover Over Me</a>
         </section>
     </main>
 </body>
